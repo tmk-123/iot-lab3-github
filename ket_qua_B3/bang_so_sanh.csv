@@ -1,0 +1,5 @@
+Mô hình,MAE (°C),RMSE (°C)
+Mean_train,2.604,2.8742
+Persistence,0.3205,0.4656
+Ridge_21,0.1388,0.1823
+Ridge_6,0.3346,0.45

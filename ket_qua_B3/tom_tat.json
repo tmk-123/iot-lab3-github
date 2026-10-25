@@ -1,0 +1,54 @@
+{
+  "sinh_vien": {
+    "ho_ten": "Trần Mạnh Khiêm",
+    "ma_sinh_vien": "B23DCCN437",
+    "lop_nhom": "Nhóm 04 tổ 2",
+    "ngay_thuc_hien": "25/10/2026"
+  },
+  "du_lieu": {
+    "nguon": "du_lieu_mau_B2.csv",
+    "tong_so_mau": 720,
+    "so_mau_train": 504,
+    "so_mau_test": 216,
+    "so_cap_train": 81,
+    "so_cap_test": 33
+  },
+  "dac_trung": {
+    "so_dac_trung_goc": 21,
+    "k_chon": 6,
+    "danh_sach_6_dac_trung": [
+      "humidity_min",
+      "temperature_max",
+      "temperature_mean",
+      "humidity_mean",
+      "humidity_max",
+      "temperature_min"
+    ]
+  },
+  "ket_qua_danh_gia": [
+    {
+      "Mô hình": "Mean_train",
+      "MAE (°C)": 2.604,
+      "RMSE (°C)": 2.8742
+    },
+    {
+      "Mô hình": "Persistence",
+      "MAE (°C)": 0.3205,
+      "RMSE (°C)": 0.4656
+    },
+    {
+      "Mô hình": "Ridge_21",
+      "MAE (°C)": 0.1388,
+      "RMSE (°C)": 0.1823
+    },
+    {
+      "Mô hình": "Ridge_6",
+      "MAE (°C)": 0.3346,
+      "RMSE (°C)": 0.45
+    }
+  ],
+  "suy_luan_mau": {
+    "thoi_diem": "2026-10-25 08:59:55+07:00",
+    "temperature_forecast_next60s": 24.67
+  }
+}
